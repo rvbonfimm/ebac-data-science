@@ -5,7 +5,7 @@ from scipy import stats
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
-df = pd.read_csv("clientes-cleaned.csv")
+df = pd.read_csv("dados/clientes-cleaned.csv")
 df_filtered = df[df["age"] > 100]
 
 print("Basic filter: ", df_filtered[["name", "age"]])
@@ -48,6 +48,6 @@ print("Invalid names: ", (df["name"] == "Nome inválido").sum())
 
 print("Treated Outliers dataframe: ", df)
 
-export_filename = "clientes-out-of-outliers.csv"
+export_filename = "dados/clientes-out-of-outliers.csv"
 print(f"CSV Exported Successfully: {export_filename}")
 df.to_csv(export_filename, index=False)

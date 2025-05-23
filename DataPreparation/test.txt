@@ -1,5 +1,0 @@
-/mingw64/bin:/usr/bin:/c/Users/roger/bin:/c/Users/roger/PycharmProjects/DataPreparation/.venv/Scripts:/c/Program Files/Eclipse Ad
-optium/jdk-21.0.5.11-hotspot/bin:/c/Python312/Scripts:/c/Python312:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WIN
-DOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/Docker/Docker/resources/bin:/cmd:/c/Program Fil
-es/nodejs:/c/ProgramData/chocolatey/bin:/c/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin:/c/Users/roger/AppData/Local
-/Microsoft/WindowsApps:/c/Users/roger/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/roger/AppData/Roaming/npm:/c/Program Files/JetBrains/PyCharm 2025.1.1/bin:/bin

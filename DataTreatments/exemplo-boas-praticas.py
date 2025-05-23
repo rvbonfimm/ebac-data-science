@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregar dados de um arquivo CSV
-df = pd.read_csv('dados.csv')
+df = pd.read_csv('dados/dados.csv')
 
 # Visualizar os primeiros registros
 print(df.head())
@@ -25,4 +25,4 @@ df['idade'] = df['idade'].fillna(df['idade'].mean())
 df['data'] = pd.to_datetime(df['data'])
 
 # Salvar o dataset limpo em um novo arquivo CSV
-df.to_csv('dados_limpos.csv', index=False)
+df.to_csv('dados/dados_limpos.csv', index=False)

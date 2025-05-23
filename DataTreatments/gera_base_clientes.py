@@ -3,6 +3,9 @@ import pandas as pd
 import random
 
 
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+
 fake = Faker(locale="pt_BR")
 
 rows = []
@@ -25,10 +28,8 @@ for _ in range(1027):
     })
 
 df = pd.DataFrame(rows)
-#pd.set_option('display.max_columns', None)
-#pd.set_option('display.width', None)
-#print(df.head())
+print(df.head())
 
-export_filename = "clientes.csv"
+export_filename = "dados/clientes.csv"
 df.to_csv(export_filename, index=False)
 print(f"File exported successfully - {export_filename}")

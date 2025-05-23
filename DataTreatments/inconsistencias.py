@@ -8,7 +8,7 @@ from gera_base_clientes import export_filename
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-df = pd.read_csv("clientes-out-of-outliers.csv")
+df = pd.read_csv("dados/clientes-out-of-outliers.csv")
 
 # To mask personal data
 df["cpf_masked"] = df["cpf"].apply(lambda cpf: f"{cpf[:3]}.***.***-{cpf[-2:]}")

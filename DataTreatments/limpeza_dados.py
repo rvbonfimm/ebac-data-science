@@ -2,10 +2,10 @@ import pandas as pd
 #import sys
 
 
-df = pd.read_csv("clientes.csv")
-
 pd.set_option("display.width", None)
 pd.set_option("display.max_columns", None)
+
+df = pd.read_csv("dados/clientes.csv")
 print(df.head())
 print(df.shape)
 
